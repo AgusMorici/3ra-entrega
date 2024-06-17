@@ -1,0 +1,85 @@
+Actualizaciones en las combinaciones de teclas … El jueves, 1 de agosto de 2024, las combinaciones de teclas de Drive se actualizarán para que puedas navegar escribiendo las primeras letras.Más información
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+}
+
+.logo {
+    width: 70px;
+}
+
+
+
+.contenedor-card {
+    width:250px;
+}
+.contenedor-card img{
+    width:100%;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    padding: 5px;
+        color: aliceblue;
+        display:block 
+}
+
+
+.navbar-nav {
+    margin-right: 0; /* Ajusta el margen derecho */
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;´
+}
+.navbar-nav {
+    margin-left: auto !important; /* Alinea a la derecha */
+}
+
+.contenedor-card {
+    width: 100vw; /* Ancho completo de la ventana */
+    height: 100vh; /* Altura completa de la ventana */
+    position: relative;
+}
+.contenedor-card iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Quita el borde del iframe si lo deseas */
+}
+.contenedor-p {
+    position: relative;
+    background-color:hsla(0, 4%, 11%, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.background {
+    background-color: black;
+}
+.col {
+    background:none;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    color: aliceblue;
+}
+.cole {
+    width: 500px;
+    height: 100%;
+}
+
+
+
+/*regla de media query*/
+/*mobile*/
+@media only screen and (max-width: 500px) 
+    
+/*tablet*/
+@media only screen and (min-width:501 px) and ( max-width: 960px)
+    
+/*desktop*/
+@media only screen and (min-width: 961px)
