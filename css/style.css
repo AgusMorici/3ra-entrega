@@ -65,8 +65,9 @@
 }
 
 .card-img-top {
-    width: 100%; /* Ancho fijo */
-    height: 500px; /* Alto fijo */
+    width: 100%; 
+    height: 500px; 
+    border: none;
 }
 
 .btn {
