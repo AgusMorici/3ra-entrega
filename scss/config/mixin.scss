@@ -1,0 +1,12 @@
+@mixin navbar-link-style($font-size, $padding, $color) {
+    font-size: $font-size;
+    padding: $padding;
+    color: $color;
+    display: block;
+  }
+@mixin margin($top, $right, $bottom, $left) {
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $bottom;
+    margin-left: $left;
+}

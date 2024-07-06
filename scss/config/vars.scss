@@ -1,0 +1,17 @@
+//tipografia
+//colores
+$title-principal: 'Arial, sans-serif';
+$title-second: "Montserrat", sans-serif;
+//Colores:
+$color-primary: black;
+// Maps
+$sizes: (
+    xs: 10em,
+    sm: 14em,
+    md: 18em,
+);
+@each $formato, $llave in $sizes{
+    .kfz-#{$formato}{
+        font-size: $llave;
+    }
+}

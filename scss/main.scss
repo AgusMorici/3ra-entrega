@@ -1,0 +1,11 @@
+// Reset
+@import './config/vars.scss';
+@import './config/mixin.scss';
+@import './config/reset';
+
+
+//Layout - estructura HTML 
+@import './cabecera';
+//Media queries - Tablet y Mobile
+@import './principal';
+@import './pie';

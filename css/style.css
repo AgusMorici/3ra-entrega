@@ -5,13 +5,10 @@
     font-family: "Montserrat", sans-serif;
     list-style: none;
 }
-
+/*index*/
 .logo {
     width: 70px;
 }
-
-
-
 .contenedor-card {
     width:250px;
 }
@@ -22,7 +19,7 @@
 .navbar ul li a{
     font-size: 18px;
     padding: 5px;
-        color: aliceblue;
+        color: white;
         display:block 
 }
 
@@ -38,35 +35,17 @@
     margin-left: auto !important; 
 }
 
-.contenedor-card {
-    width: 100vw; 
-    height: 100vh; 
-    position: relative;
-}
+
+
 .contenedor-card iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
-.row {
-    position: relative;
-    background-color:hsla(0, 5%, 8%, 0.5);
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    line-height: 1.5;
+.cardtextuno {
+    margin: 10px;
 }
-.contenedor-p {
-    position: relative;
-    background-color:hsla(0, 3%, 13%, 0.5);
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-.background {
-    background-color: black;
-}
+
 .col {
     background:none;
     padding: 20px;
@@ -78,6 +57,39 @@
     width: 500px;
     height: 100%;
 }
+/*Novedades*/
+.title {
+    text-align: center;
+    background-image: url(../assets/ballenaatras.png);
+    color: aliceblue;
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 500px; 
+    border: none;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/*nosotros*/
+.img-thumbnail {
+    width: 100%;
+    margin-top: 10px;
+}
+/*actividades*/
+.cardtext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 
 /* Reglas de media query */
 /* Mobile */
@@ -104,6 +116,12 @@
         width: 100%;
         padding: 15px;
     }
+}
+/*actividades*/
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Desktop */

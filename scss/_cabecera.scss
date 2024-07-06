@@ -1,0 +1,29 @@
+
+/*index*/
+.logo {
+    width: 70px;
+}
+.contenedor-card {
+    width: 250px;
+    img {
+      width: 100%;
+    }
+  }
+
+.navbar {
+    ul {
+      li {
+        a {
+          @include navbar-link-style(18px, 5px, white);
+        }
+      }
+    }
+    .navbar-nav {
+        margin-right: 0;
+        margin-left: auto !important;
+    
+        .nav-link {
+          padding: 0.5rem 1rem;
+        }
+      }
+    }
