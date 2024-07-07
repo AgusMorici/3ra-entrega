@@ -1,13 +1,13 @@
 .kfz-xs {
-  font-size: 10em;
+  font-size: 12px;
 }
 
 .kfz-sm {
-  font-size: 14em;
+  font-size: 14px;
 }
 
 .kfz-md {
-  font-size: 18em;
+  font-size: 18px;
 }
 
 * {
@@ -111,6 +111,10 @@ svg.bi-instagram {
 }
 svg.bi-twitter-x {
   color: black;
+}
+
+.card-footer .kfz-xs {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=main.css.map */

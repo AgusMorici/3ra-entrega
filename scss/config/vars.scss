@@ -6,9 +6,9 @@ $title-second: "Montserrat", sans-serif;
 $color-primary: black;
 // Maps
 $sizes: (
-    xs: 10em,
-    sm: 14em,
-    md: 18em,
+    xs: 12px,
+    sm: 14px,
+    md: 18px,
 );
 @each $formato, $llave in $sizes{
     .kfz-#{$formato}{

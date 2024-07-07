@@ -10,3 +10,8 @@ svg {
       color: black;
     }
   }
+  .card-footer {
+    .kfz-xs {
+      font-size: map-get($sizes, xs);
+    }
+  }
